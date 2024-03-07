@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>betflix.today</title>
+  <style>
+   form,l abel,input
+   {
+     background-color:white;
+     width:70%;
+     border-radius:10px;
+     padding-bottom: 10px;
+     text-align:center;max-width: 500px;
+
+   }
+   #navb,li
+   {
+     list-style:none ;
+      display: inline;
+   }
+   a
+   {
+     text-transform: uppercase;
+      text-decoration:unset;
+      color: whitesmoke;
+       padding-right:30px;
+       border-right:1px solid white;
+   }
+   #navb
+   {
+      background-color:black ;
+      padding:10px;
+   }
+   logo
+   {
+       border-right:none ;
+       font-size:50px ;
+       color: #FF0000;
+       text-shadow:3px 3px white;
+       margin-right:400px;
+
+   }
+
+
+
+
+
+  </style>
+
+
+</head>
+ <body style=" background-image:linear-gradient(to right,#FF0000,#4169E1);">
+
+<uL id="navb">
+  <li><a href="home.html" id="logo">BETFLIX ONLINE</a></li>
+  <Li><a href="home.html">HOME</a></Li>
+  <li><a href="about.html">ABOUT US</a></li>
+  <li><a href="contact.html">CONTACT US</a></li>
+  <li><a href="register.html">REGISTER</a></li>
+</uL>
+
+<center>
+<img src="betflix%202.jpeg" >
+</center>
+<form action= "savedata.py"method="post" style="margin:auto;border-radius: 50px;background-color: white;width:50%  ;padding:20px;text-align:center;">
+    <h1 style= "font-style:italic;width:100%;color:white;background-color:blue;">sign in</h1>
+    <table>
+        <tr>
+            <td>First name<br><input type="text"  name="fname" placeholder="first name" style="border:none;border-bottom:1px solid white"></td>  <td>last name<br><input type="text" name="lname"></td></tr>
+
+        <tr>
+            <td>Email<br><input type="email" name="my email"></td>  <td>age<br><input type="number"  name="age"></td>
+        </tr>
+
+
+
+
+                <tr>
+                    <td>
+            <label>nationality:</label><br>
+            <select>
+                <option>kenyan</option>
+                <option>german</option>
+                <option>british</option>
+                <option>spanish</option>
+                <option>mexican</option>
+                <option>canadian</option>
+                 <option>australian</option>
+            </select>
+                    </td>
+
+                <tr>
+              <td>light sensitivity<br><input type="checkbox"  name="light sensitivity" >   <td>password<br><input type="password" name="pass">
+                </tr>
+
+
+
+                    <tr><td><br><input style="background-color:blue;    " type="submit"     name="savedata" id="savedata"></td></tr>
+                </table>
+
+
+            </form>
+
+
+
+</body>
+</html>
